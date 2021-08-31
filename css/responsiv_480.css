@@ -1,0 +1,34 @@
+.header__logo {
+    display: none;
+}
+
+.navbar__row {
+    justify-content: end;
+}
+
+.header__basket .header__dropdown {
+    left: -147px !important;
+    max-width: 285px !important;
+}
+
+.header__basket .header__dropdown::before {
+    left: 56% !important;
+}
+
+.header__account .header__dropdown {
+    left: 100%;
+}
+
+.header__account .header__dropdown::before {
+    left: 28%;
+}
+
+.slideshow__prev .slideshow__next {
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 30px;
+}
+
+.footer__info {
+    text-align: center;
+}

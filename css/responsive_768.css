@@ -1,0 +1,13 @@
+.adplacement__row{
+    display: unset;
+}
+.adplacement__link{
+    max-width: unset;
+}
+.footer__link {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.header__top{
+    padding: 150px 0 50px;
+}
