@@ -116,99 +116,101 @@
         <div class="container">
             <div class="page">
                 <div class="page__sidebar">
-                    <div class="box">
-                        <div class="box-filters">
-                            <div class="box-filters__header">
-                                <span class="box-filters__title">فیلتر های اعمال شده</span>
-                                <a href="" class="box-filters__clear">حذف همه</a>
-                            </div>
-                            <ul class="box-filters__ul">
-                                <li class="box-filters__li">
+                    <div class="page__sidbar--sticky">
+                        <div class="box  box--filter">
+                            <div class="box-filters">
+                                <div class="box-filters__header">
+                                    <span class="box-filters__title">فیلتر های اعمال شده</span>
+                                    <a href="" class="box-filters__clear">حذف همه</a>
+                                </div>
+                                <ul class="box-filters__ul">
+                                    <!-- <li class="box-filters__li">
                                     <button class="box-filters__button"></button>
                                     <span class="box-filters__name">سامسونگ</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="box__row">
-                            <div class="box__header">برندها
+                                </li> -->
+                                </ul>
                             </div>
-                            <div class="box__filter">
-                                <div class="box__contetnt-container">
-                                    <div class="box__content">
-                                        <ul class="box__ul">
-                                            <li class="box__li">
-                                                <label class="ui-checkbox" data-fa="سامسونگ" data-en="Sumsung" data-serach="Sumsung سامسونگ">
+                        </div>
+                        <div class="box">
+                            <div class="box__row">
+                                <div class="box__header">برندها
+                                </div>
+                                <div class="box__filter">
+                                    <div class="box__contetnt-container">
+                                        <div class="box__content">
+                                            <ul class="box__ul">
+                                                <li data-id="1" class="box__li">
+                                                    <label class="ui-checkbox" data-fa="سامسونگ" data-en="Sumsung" data-serach="Sumsung سامسونگ">
                                                     <input type="checkbox" class="ui-checkbox__input">
                                                     <span class="ui-checkbox__mark"></span>
                                                     سامسونگ
                                                 </label>
-                                            </li>
+                                                </li>
 
-                                            <li class="box__li">
-                                                <label class="ui-checkbox" data-fa="شیائومی" data-en="xiaomi" data-serach="xiaomi شیائومی">
+                                                <li data-id="2" class="box__li">
+                                                    <label class="ui-checkbox" data-fa="شیائومی" data-en="xiaomi" data-serach="xiaomi شیائومی">
                                                     <input type="checkbox" class="ui-checkbox__input">
                                                     <span class="ui-checkbox__mark"></span>
                                                    شیائومی
                                                 </label>
-                                            </li>
+                                                </li>
 
 
-                                            <li class="box__li">
-                                                <label class="ui-checkbox" data-fa="الجی" data-en="LG" data-serach="الجی lG">
+                                                <li data-id="3" class="box__li">
+                                                    <label class="ui-checkbox" data-fa="الجی" data-en="LG" data-serach="الجی lG">
                                                     <input type="checkbox" class="ui-checkbox__input">
                                                     <span class="ui-checkbox__mark"></span>
                                                   الجی
                                                 </label>
-                                            </li>
-                                        </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="box">
-                        <div class="box__row">
-                            <div class="box__header">رنگ محصول
-                            </div>
-                            <div class="box__filter">
-                                <div class="box__contetnt-container">
-                                    <div class="box__content">
-                                        <ul class="box__ul">
-                                            <li class="box__li">
-                                                <label class="ui-checkbox" data-fa="مشکی" data-serach="مشکی block">
+                        <div class="box">
+                            <div class="box__row">
+                                <div class="box__header">رنگ محصول
+                                </div>
+                                <div class="box__filter">
+                                    <div class="box__contetnt-container">
+                                        <div class="box__content">
+                                            <ul class="box__ul">
+                                                <li data-id="4" class="box__li">
+                                                    <label class="ui-checkbox" data-fa="مشکی" data-serach="مشکی block">
                                                     <input type="checkbox" class="ui-checkbox__input">
                                                     <span class="ui-checkbox__mark"></span>
                                                    مشکی
                                                    <span class="filter__color" style="background:#000;"></span>
                                                 </label>
-                                            </li>
+                                                </li>
 
-                                            <li class="box__li">
-                                                <label class="ui-checkbox" data-fa="قرمز" data-serach="قرمز RED">
+                                                <li data-id="5" class="box__li">
+                                                    <label class="ui-checkbox" data-fa="قرمز" data-serach="قرمز RED">
                                                     <input type="checkbox" class="ui-checkbox__input">
                                                     <span class="ui-checkbox__mark"></span>
                                                   قرمز
                                                    <span class="filter__color" style="background:rgb(224, 19, 19);"></span>
                                                 </label>
-                                            </li>
-                                        </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="box box--switcher">
-                        <label class="ui-switcher">
+                        <div class="box box--switcher">
+                            <label class="ui-switcher">
                             <input type="checkbox" class="ui-switcher__input">
                             <span class="ui-switcher__slider">
                                 <span class="ui-switcher__toggle"></span>
                             </span>
                             فقط کالای های موجود
                         </label>
-                    </div>
+                        </div>
 
+                    </div>
                 </div>
                 <div class="page__content">
                     <ul class="breadcrump">

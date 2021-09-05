@@ -939,6 +939,7 @@
                     border: 1px solid rgba(0, 0, 0, .1);
                     margin-left: 5px;
                     vertical-align: middle;
+                    pointer-events: none;
                 }
                 
                 .ui-checkbox__input:checked~.ui-checkbox__mark {
@@ -961,6 +962,10 @@
                     width: 100%;
                     max-width: 75%;
                     flex: 0 0 75%;
+                }
+                
+                .box--filter {
+                    display: none;
                 }
                 
                 .breadcrump {
@@ -1117,4 +1122,9 @@
                     font-size: 20px;
                     color: #6c757d;
                     padding-left: 5px;
+                }
+                
+                .page__sidbar--sticky {
+                    position: sticky;
+                    top: 10px;
                 }
