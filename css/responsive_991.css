@@ -35,7 +35,8 @@
 .header__menu {
     display: block;
 }
-.overlay{
+
+.overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -45,19 +46,42 @@
     z-index: 20;
     display: none;
 }
-.overlay--is-active{
+
+.overlay--is-active {
     display: block;
 }
-.header__form{
+
+.header__form {
     width: 100%;
 }
-.footer__row  , .footer__getcall{
+
+.footer__row,
+.footer__getcall {
     flex-direction: column;
 }
-.footer__getcall-info{
+
+.footer__getcall-info {
     text-align: center;
 }
+
 .footer__link {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.page__sidebar {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-left: unset;
+}
+
+.page__content {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-top: 12px;
+}
+
+.products__item {
     max-width: 50%;
     flex: 0 0 50%;
 }
